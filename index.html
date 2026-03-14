@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+   
+    <title>buscador-de-contatos</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📇 Agenda de Contatos</h1>
+<button id="toggle-tema">🌙 Modo escuro</button>
+
+<div class="form-box">
+
+<input type="text" id="nome" placeholder="Nome do contato">
+<input type="text" id="telefone" placeholder="Telefone">
+
+<button onclick="adicionarContato()">Adicionar contato</button>
+
+<input type="text" id="buscar" placeholder="Buscar contato..." onkeyup="buscarContato()">
+
+<button onclick="toggleContatos()">📂 Ver contatos</button>
+
+</div>
+
+<div class="lista-box" id="caixa-contatos">
+
+<ul id="lista-contatos"></ul>
+
+</div>
+
+</div>
+
+<script src="./scripts.js"></script>
+
+</body>
+</html>
