@@ -7,6 +7,22 @@ Os dados são armazenados no **LocalStorage**, permitindo que os contatos perman
 
 ---
 
+# 🚀 Demonstração
+
+🔗 Acesse o projeto online:
+https://cassymari.github.io/Buscador-de-contato/
+
+---
+
+# 📸 Preview do projeto
+
+<img src="assets/agenda-de-contatos.jpeg" alt="Preview do portfólio" width="800">
+
+---
+
+
+---
+
 ## 🚀 Funcionalidades
 
 * ➕ Adicionar novos contatos
